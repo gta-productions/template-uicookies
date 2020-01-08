@@ -9,6 +9,13 @@
     <meta name="description" content="Simple HTML5 Page layout template with header, footer, sidebar etc.">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <style type="text/css">
+    ul.coloredList li a {
+      color: #3F97C0;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    </style>
 </head>
 
 <body>
@@ -16,21 +23,24 @@
 		<div id="logo"><img src="logo.png">GTA Productions</div>
 		<nav>
 			<ul>
-				<li><a href="/">&nbsp;</a>
-				<li><a href="https://html-css-js.com/">&nbsp;</a>
-				<li><a href="https://html-css-js.com/css/code/">&nbsp;</a>
-				<li><a href="https://htmlcheatsheet.com/js/">&nbsp;</a>
+				<li><a href="#">&nbsp;</a></li>
+  				<li><a href="#">&nbsp;</a></li>
+    				<li><a href="#">&nbsp;</a></li>
+				<!--<li><a href="https://html-css-js.com/">&nbsp;</a></li>
+        <li><a href="https://html-css-js.com/css/code/">&nbsp;</a></li>-->
+				<li></li>
 			</ul>
 		</nav>
 	</header>
 	<section>
-		<strong>Available templates and themes from UI Cookies</strong>
+		<strong>Available templates and themes from UI Cookies </strong> &nbsp;&nbsp; <iframe src="https://ghbtns.com/github-btn.html?user=gta-productions&repo=template-uicookies2&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
 	</section>
+
 	<section id="pageContent">
 		<main role="main">
 			<article>
 				<p>
-          <ul>
+          <ul class="coloredList">
             <li><a href="atlantis/index.html" target="_blank">Atlantis</a></li>
             <li><a href="black/index.html" target="_blank">Black</a></li>
             <li><a href="bold/index.html" target="_blank">Bold</a></li>
@@ -65,9 +75,9 @@
 		</aside>
 	</section>
 	<footer>
-		<p>&copy; You can copy, edit and publish this template as you wish | <a href="https://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a></p>
+		<p style="color:#FFF;">&copy; You can copy, edit and publish this template as you wish</p>
 		<address>
-			Contact: <a href="mailto:me@example.com">Mail me</a>
+			<span style="color:#FFF;">Contact:</span> <a href="mailto:greg@gregallen.net" style="color:#f29d41;font-weight:bold;text-decoration:underline;">greg@gregallen.net</a>
 		</address>
 	</footer>
 
