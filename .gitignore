@@ -1,0 +1,14 @@
+# Mac Crap
+*.DS_Store
+
+# Node
+/node_modules
+
+# Byte-Compiled
+*.pyc
+
+# Misc
+*.sqlite
+*.db
+*.log
+*.logs
